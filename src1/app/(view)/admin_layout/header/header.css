@@ -1,0 +1,31 @@
+/* 
+    .swingimage {
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 1s ease-in-out forwards infinite;
+        animation: swinging 1s ease-in-out forwards infinite;
+    } */
+    /* Define the swing animation */
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Apply the swing animation to the bell icon */
+.swingimage {
+    animation: swing 0.5s infinite;
+}
+/* Define the color change animation */
+@keyframes colorChange {
+    0% { color: red; }
+    50% { color: orange; }
+    100% { color: red; }
+}
+
+/* Apply the color change animation to the icon */
+.blink_me {
+    animation: colorChange 2s infinite;
+}
+
+

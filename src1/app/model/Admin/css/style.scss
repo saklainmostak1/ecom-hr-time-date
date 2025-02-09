@@ -1,0 +1,213 @@
+@import url("solaimanlipi.css");
+@import url("fa.css");
+@import url("spectrum.css");
+@import url("aos.css"); 
+@import url("hover-min.css");
+@import url("animate.min.css");
+$enable-gradients: true !default;
+$enable-shadows: true;
+$enable-responsive-font-sizes: true !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$indigo:  #6610f2 !default;
+$cyan:    #17a2b8 !default;
+$orange:  #fd7e14 !default;
+$facebook:  #4267b2 !default;/**/ 
+$facebookm:  #3b5998 !default;
+$facebookd:  #344e86 !default;
+$teal:    #20c997 !default;
+$primary:       $facebook !default;  
+$pink:          $pink !default;
+$purple:          $purple !default;
+$cyan:          $cyan !default;
+$indigo:          $indigo !default;
+$orange:          $orange !default;
+$teal:          $teal !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "pink":    $pink,
+	"purple":  $purple,
+	"indigo":     $indigo,
+	"orange":     $orange,
+	"cyan":       $cyan,
+	"teal":       $teal,
+	"facebook":     $facebook,
+	"facebookm":     $facebookm,
+	"facebookd":     $facebookd
+  ),
+  $theme-colors
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+html{
+    overflow-x:hidden;
+}
+body {
+	font-family: "SolaimanLipi", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.img-logo{
+    height:60px; 
+}
+.logo-title{
+    font-size: 1.4rem;
+}
+.logo-subtitle{
+    font-size: 1rem;
+}
+/*.dynamic-col .card, .dynamic-col .card .card-header, .dynamic-col li{
+	background-color:transparent;   
+}*/
+@media (min-width: 768px) { 
+	.img-logo{
+			height:50px; 
+	}
+  .col-md-1 .marquee-header, .col-md-2 .marquee-header, .col-md-3 .marquee-header, .col-md-4 .marquee-header, .col-md-5 .marquee-header{max-width:100%; flex: 0 0 100%;}   
+	.col-md-1 .marquee-body, .col-md-2 .marquee-body, .col-md-3 .marquee-body, .col-md-4 .marquee-body, .col-md-5 .marquee-body{max-width:100%; flex: 0 0 100%;}
+	.col-md-6 .marquee-header{max-width:35%; flex: 0 0 35%;} 
+	.col-md-6 .marquee-body{max-width:65%; flex: 0 0 65%;} 
+}
+@media (min-width: 992px) { 
+    .img-logo{
+        height:60px; 
+    }  
+		
+}
+@media (min-width: 1200px) { 
+  .img-logo{
+        height:100px; 
+    }
+	.logo-title{
+		font-size: 2rem;
+	}
+	.logo-subtitle{
+		font-size: 1.25rem;
+	}
+	.col-md-1 .gallery-thumb a img, .col-md-2 .gallery-thumb a img{
+		width:100%;
+	}
+	.col-md-3 .col-md-12  .gallery-thumb a img, .col-md-4 .col-md-12 .gallery-thumb a img, .col-md-5  .col-md-12  .gallery-thumb a img{
+	
+		width:48%;
+		float:left;
+	}
+	.col-md-6 .gallery-thumb a img, .col-md-7 .gallery-thumb a img, .col-md-8 .gallery-thumb a img{
+		width:23%;
+	}
+	.col-md-9 .gallery-thumb a img, .col-md-10 .gallery-thumb a img, .col-md-11 .gallery-thumb a img, .col-md-12 .gallery-thumb a img{
+		width:23%;
+	}
+	.col-md-1 .marquee-header, .col-md-2 .marquee-header, .col-md-3 .marquee-header, .col-md-4 .marquee-header, .col-md-5 .marquee-header{max-width:100%; flex: 0 0 100%;}   
+	.col-md-1 .marquee-body, .col-md-2 .marquee-body, .col-md-3 .marquee-body, .col-md-4 .marquee-body, .col-md-5 .marquee-body{max-width:100%; flex: 0 0 100%;}
+	.col-md-6 .marquee-header{max-width:35%; flex: 0 0 35%;}
+	.col-md-6 .marquee-body{max-width:65%; flex: 0 0 65%;} 
+	.col-md-8 .marquee-header, .col-md-7 .marquee-header{max-width:20%; flex: 0 0 20%;}
+	.col-md-8 .marquee-body, .col-md-7 .marquee-body{max-width:80%; flex: 0 0 80%;} 	
+}
+.list-group-item{
+	background-color: inherit;
+}
+.dynamic-col a{
+	color: inherit;
+}
+.sidebar ul li:last-child{
+	border:0px !important;
+}
+.sidebar-hover{
+	background-color:rgba(40, 61, 104, .5) !important;
+	-webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+/*text-indent dynamic start*/
+@for $i from 1 to 10 {
+	.text-indent-#{$i} {
+		text-indent: $i + rem;
+	}
+}
+/*text-indent dynamic end*/
+.tdo{
+	text-decoration: overline;
+}
+.tdl{
+	text-decoration:  line-through;
+}
+.tdu{
+	text-decoration: underline;
+}
+.img_close{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.table thead th{
+	vertical-align: middle;
+}
+@for $i from 1 to 10 {
+	$il: $i/4;
+	@if $i == 1 {
+    $il:1;
+  } @else {
+    $il: 1+$il;
+  }
+	.zt-#{$i} {
+		
+		zoom: $il;
+	}
+}
+@for $i from 1 to 10 {
+	$i: $i/4;
+	.zth-#{$i}:hover {
+		zoom: $i;
+	}
+}
+@for $w from 1 to 19 {
+	$w: $w*5;
+	.w-#{$w} {
+		width: #{$w}% !important;
+	}
+}
+.left-nav-user{
+	height:66px;
+}
+.swingimage{
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-animation: swinging 1s ease-in-out forwards infinite;
+	animation: swinging 1s ease-in-out forwards infinite;
+}
+@-webkit-keyframes swinging{
+	20% { transform: rotate(15deg); } 
+	40% { transform: rotate(-10deg); } 
+	60% { transform: rotate(5deg); } 
+	80% { transform: rotate(-5deg); } 
+	100% { transform: rotate(0deg); } 
+}
+@keyframes swinging{
+	20% { transform: rotate(15deg); } 
+	40% { transform: rotate(-10deg); } 
+	60% { transform: rotate(5deg); } 
+	80% { transform: rotate(-5deg); } 
+	100% { transform: rotate(0deg); } 
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: .2;
+  }
+}
+.fa-stack{
+    font-size: 0.7em;
+    width: 1.9em;
+    position: relative;
+    vertical-align: middle;
+}
+i { vertical-align: middle; }
+@media (max-width: 575.98px) {
+	.p-xs-3{
+		padding: 1rem !important;
+	}
+}

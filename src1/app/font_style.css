@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Nikosh';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url('./bangla_fonts/Nikosh.eot');
+    src:
+      url('./bangla_fonts/Nikosh.ttf') format('truetype');
+      unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+  
+  }
+  
+  @font-face {
+    font-family: 'Akaash';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src:
+      url('./bangla_fonts/akaashnormal.ttf') format('truetype');
+      unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+  
+  }
+  
+  @font-face {
+    font-family: 'kalpurush';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src:
+      url('./bangla_fonts/kalpurush.ttf') format('truetype');
+      unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+  
+  }
+  
+  @font-face {
+    font-family: 'Siyamrupali';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src:
+      url('./bangla_fonts/Siyamrupali.ttf') format('truetype');
+      unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+  
+  }
+  
+  @font-face {
+    font-family: 'sagarnormal';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src:
+      url('./bangla_fonts/sagarnormal.ttf') format('truetype');
+      unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+  
+  }
+  
+  @font-face {
+    font-family: 'SolaimanLipi';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src:
+      url('./bangla_fonts/SolaimanLipi_20-04-07.ttf') format('truetype');
+      unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+  
+  }
+  
+  @font-face {
+    font-family: 'Adorsho Lipi';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src:
+      url('./bangla_fonts/AdorshoLipi_20-07-2007.ttf') format('truetype');
+      unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1;
+  
+  }

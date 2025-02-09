@@ -1,0 +1,26 @@
+.css-wmy1p7-ReactDropdownSelect {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    border: 1px solid #ccc;
+    width: 500px; /* Match the width with the dropdown */
+    border-radius: 2px;
+    padding: 2px 5px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    min-height: 40px; /* Ensure the height matches the dropdown */
+}
+
+.css-wmy1p7-ReactDropdownSelect .react-select__control {
+    border-radius: 2px; /* Matching border radius */
+    min-height: 40px; /* Ensure minimum height */
+}
+
+.css-wmy1p7-ReactDropdownSelect .react-select__menu {
+    width: 500px; /* Ensure menu width matches the dropdown */
+}
+
+.css-wmy1p7-ReactDropdownSelect .react-select__option {
+    padding: 10px; /* Adjust padding for readability */
+}

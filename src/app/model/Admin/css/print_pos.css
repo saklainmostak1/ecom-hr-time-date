@@ -1,0 +1,91 @@
+body{
+	background: rgb(204,204,204);
+	font-size: small !important;	
+	}
+page {
+	background: white;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.5cm;
+	box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page{
+width:287px;
+height:320px;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 3px;
+}
+@media print {
+  body, page {
+	margin: 0;
+	box-shadow: 0;
+	
+  }
+}
+
+.page-container{
+	padding: 8px;
+}
+.header{
+	width: 100%;
+}
+.header-left{
+	float: left;
+	width: 50%;
+}
+.header-right{
+	margin-bottom: 5px;
+	float: right;
+	width: 50%;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+	
+}
+.footer{
+	margin-top: 5px;
+	width: 100%;
+}
+.footer-left{
+	width: 40%;
+	float: left;
+}
+.footer-right{
+	width: 60%;
+	float: right;
+	margin-top: 3px;
+}
+.footer-right table, .footer-right table tr, .footer-right table tr td{
+    border: none !important;
+    border-collapse: collapse;
+}
+p{
+	margin:3px;
+	line-height:10px;
+}
+.margin-5{
+margin-bottom:5px;
+}
+.clearfix{
+	clear:both;
+	height:0px;
+}
+.text-margin-right{
+	text-align:right;
+	margin:3px 0px;
+    line-height: 10px;
+}

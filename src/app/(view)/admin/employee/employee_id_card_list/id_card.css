@@ -1,0 +1,2097 @@
+/* id 1 */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+}
+
+.id-card {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-3-f.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: white;
+  margin-left: 10px;
+}
+
+.header .logo {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section {
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text-left {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+  color: #fff;
+  padding: 3px 10px;
+  background: #323990;
+  border-radius: 6px;
+  position: absolute;
+  top: 40px;
+  left: -36px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 90px;
+  text-align: center;
+}
+
+.text {
+  width: 205px;
+  height: 326px;
+  position: absolute;
+  /* overflow: hidden; */
+}
+
+.rotate-text-right {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+  color: #fff;
+  padding: 3px 10px;
+  background: #323990;
+  border-radius: 6px;
+  position: absolute;
+  top: 40px;
+  right: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 90px;
+  text-align: center;
+}
+
+.rotate-img {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+  position: fixed;
+
+
+}
+.imgs {
+  position: absolute;
+  left: 79px;
+  width: 57px;
+  height: 100px;
+  /* width: 91px;
+  height: 150px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px 90px;
+  border-radius: 0px 30px 0px 30px;
+}
+
+.img {
+  position: absolute;
+  left: 77px;
+  width: 75px;
+  top: 110px;
+  height: 93px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px 90px;
+  border-radius: 0px 30px 0px 30px;
+}
+
+
+.photo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+}
+
+
+
+
+
+.photo img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+
+
+.info {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 130px;
+  margin-left: 15px;
+}
+
+.details1 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  /* margin-top: 130px; */
+  margin-left: 15px;
+}
+.details13 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  /* margin-top: 130px; */
+  margin-left: 15px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature {
+  margin-top: 15px;
+}
+
+.signature p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container {
+  width: 205px;
+  height: 326px;
+  background: url('Id-3-back.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.id-card-issue-date,
+.id-card-expire-date {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.id-card-qr-code img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* id 2 */
+
+
+
+.id-cards {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-4-f.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.headers {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+}
+
+.headers .logos {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.headers h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.headers p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-sections {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-texts {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-imgs {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+
+.photos {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 23px;
+  /* margin-left: 90px;
+  margin-top: 50px; */
+}
+
+/* .photos img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+} */
+
+.photos img {
+  max-width: 80%;
+  max-height: 90%;
+  /* border-radius: 8px; */
+  margin-left: 63px;
+  margin-top: -42.5px;
+}
+
+.infos {
+  font-size: 12px;
+  text-align: left;
+}
+
+.detailss {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
+.footers {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signatures {
+  margin-top: 15px;
+}
+
+.signatures p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signatures hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-containers {
+  width: 205px;
+  height: 326px;
+  background: url('Id-4-back.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-contents {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.id-card-issue-dates,
+.id-card-expire-dates {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructionss {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.id-card-qr-codes img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-infos {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signatures {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* id 3 */
+
+
+.id-card1 {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-1-f.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header1 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: white;
+  margin-left: 10px;
+}
+
+.header1 .logo1 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header1 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header1 p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section1 {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text1 {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-img1 {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+
+.photo1 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  /* margin-left: 90px;*/
+  margin-top: -39px;
+}
+
+.photo1 img {
+  max-width: 127%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+
+
+.info1 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details1 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 125px;
+  margin-left: 15px;
+}
+.details11 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  /* margin-top: 125px; */
+  margin-left: 15px;
+}
+
+.footer1 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature1 {
+  margin-top: 15px;
+}
+
+.signature1 p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature1 hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container1 {
+  width: 205px;
+  height: 326px;
+  background: url('Id-b-1.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content1 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  /* top: 10px; */
+}
+
+.id-card-issue-date1,
+.id-card-expire-date1 {
+  font-size: 9px;
+  color: white;
+  margin: 0;
+}
+
+.id-card-instructions1 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+.id-card-qr-code1 img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info1 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+
+
+/* id 4 */
+
+
+.id-card12 {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-2-f.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header12 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+}
+
+.header12 .logo12 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header12 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header12 p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section12 {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text12 {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-img12 {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+
+.photo12 {
+  width: 110px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-top: -21.5px;
+}
+
+.photo12 img {
+  max-width: 95%;
+  max-height: 90%;
+  border-radius: 50%;
+}
+
+
+
+.info12 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details12 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 125px;
+  margin-left: 15px;
+}
+.details124 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  /* margin-top: 125px; */
+  margin-left: 15px;
+}
+.rotate-text-right1 {
+ 
+  /* Rotate 45 degrees */
+  color: #fff;
+  padding: 3px 10px;
+  background: #323990;
+  border-radius: 6px;
+  position: absolute;
+  top: 46px;
+  right: 35px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 40px;
+  text-align: center;
+}
+.rotate-text-left1 {
+ 
+  /* Rotate 45 degrees */
+  color: #fff;
+  padding: 3px 10px;
+  background: #323990;
+  border-radius: 6px;
+  position: absolute;
+  top: 46px;
+  left: -4px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 40px;
+  text-align: center;
+}
+
+.footer12 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature12 {
+  margin-top: 15px;
+}
+
+.signature12 p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature12 hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container12 {
+  width: 205px;
+  height: 326px;
+  background: url('Id-2-back.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content12 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.id-card-issue-date12,
+.id-card-expire-date12 {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions12 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.id-card-qr-code12 img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info12 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature12 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/* id 5 */
+
+.id-card5 {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-5-f.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header5 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.header5 .logo5 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header5 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header5 p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section5 {
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text5 {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-img5 {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+.rotate-text-right2 {
+ 
+  color: #fff;
+    padding: 3px 10px;
+    background: #323990;
+    border-radius: 6px;
+    position: absolute;
+    top: 65px;
+    right: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+
+  text-align: center;
+}
+.rotate-text-left2 {
+
+  color: #fff;
+  padding: 3px 10px;
+  background: #323990;
+  border-radius: 6px;
+  position: absolute;
+  top: 65px;
+  left: -4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.photo5 {
+  width: 115px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-top: -48px !important;
+}
+
+.photo5 img {
+  max-width: 105%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+
+
+.info5 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details5 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 125px;
+  margin-left: 15px;
+}
+.details55 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  /* margin-top: 125px; */
+  margin-left: 15px;
+}
+
+.footer5 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature5 {
+  margin-top: 15px;
+}
+
+.signature5 p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature5 hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container5 {
+  width: 205px;
+  height: 326px;
+  background: url('Id-5-back.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content5 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 32px;
+}
+
+.id-card-issue-date5,
+.id-card-expire-date5 {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions5 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.id-card-qr-code5 img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info5 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* id 6 */
+
+.id-card6 {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-f-6.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header6 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.header6 .logo6 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header6 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header6 p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section6 {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text6 {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-img6 {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+
+.photo6 {
+  width: 115px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-top: -12px !important;
+}
+
+.photo6 img {
+  max-width: 98%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+
+
+.info6 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details6 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 125px;
+  margin-left: 15px;
+}
+.details66 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.footer6 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature6 {
+  margin-top: 15px;
+}
+
+.signature6 p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature6 hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container6 {
+  width: 205px;
+  height: 326px;
+  background: url('Id-b-6.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content6 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 32px;
+}
+
+.id-card-issue-date6,
+.id-card-expire-date6 {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions6 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.id-card-qr-code6 img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info6 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature6 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* id 7 */
+
+.id-card7 {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-7-f.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header7 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.header7 .logo7 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header7 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header7 p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section7 {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text7 {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-img7 {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+
+.photo7 {
+  width: 115px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 9px;
+  margin-top: -3px !important;
+}
+
+.photo7 img {
+  max-width: 98%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+
+
+.info7 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details7 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 125px;
+  margin-left: 15px;
+}
+.details77 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.footer7 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature7 {
+  margin-top: 15px;
+}
+
+.signature7 p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature7 hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container7 {
+  width: 205px;
+  height: 326px;
+  background: url('Id-7-back.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content7 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 32px;
+}
+
+.id-card-issue-date7,
+.id-card-expire-date7 {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions7 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.id-card-qr-code7 img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info7 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature7 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* id 10 */
+
+.id-card10 {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-10.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header10 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: white;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.header10 .logo10 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header10 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header10 p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section10 {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text10 {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-img10 {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+
+.photo10 {
+  width: 73px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 49px;
+  margin-top: -13px !important;
+}
+
+.photo10 img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+
+
+.info10 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details10 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 135px;
+  margin-left: 15px;
+}
+.details101 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.footer10 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature10 {
+  margin-top: 15px;
+}
+
+.signature10 p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature10 hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container10 {
+  width: 205px;
+  height: 326px;
+  background: url('id-10-b.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content10 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 32px;
+}
+
+.id-card-issue-date10,
+.id-card-expire-date10 {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions10 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.id-card-qr-code10 img {
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info10 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature10 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* id 10 */
+
+
+/* id 8 */
+
+
+.id-card8 {
+  width: 205px;
+  height: 326px;
+  background-image: url('id-8.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header8 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+}
+
+.header8 .logo8 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header8 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header8 p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.photo-section8 {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-bottom: 15px;
+}
+
+.rotate-text8 {
+  transform: rotate(270deg);
+  /* Rotate 45 degrees */
+}
+
+.rotate-img8 {
+  transform: rotate(45deg);
+  /* Rotate 45 degrees */
+}
+
+.photo8 {
+  width: 70px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 3px;
+  margin-top: -3px;
+}
+.rotate-text-left8{
+
+  
+      /* transform: rotate(270deg); */
+      color: #fff;
+      padding: 3px 10px;
+      background: #323990;
+      border-radius: 6px;
+      position: absolute;
+      top: 2px;
+      left: -13px;
+      font-size: 12px;
+      font-weight: bold;
+      /* width: 90px; */
+      text-align: center;
+}
+.rotate-text-right8{
+
+    /* transform: rotate(270deg); */
+    color: #fff;
+    padding: 3px 10px;
+    background: #323990;
+    border-radius: 6px;
+    position: absolute;
+    top: 2px;
+    right: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    /* width: 90px; */
+    text-align: center;
+}
+
+.photo8 img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+
+
+.info8 {
+  font-size: 12px;
+  text-align: left;
+}
+
+.details8 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 125px;
+  margin-left: 15px;
+}
+
+.details88 {
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.footer8 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.signature8 {
+  margin-top: 15px;
+}
+
+.signature8 p {
+  margin: 0;
+  font-style: italic;
+}
+
+.signature8 hr {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+/* back */
+.id-card-container8 {
+  width: 205px;
+  height: 326px;
+  background: url('Id-8-b.png') no-repeat center center / cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.id-card-content8 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  /* top: 30px; */
+}
+
+.id-card-issue-date8,
+.id-card-expire-date8 {
+  font-size: 9px;
+  margin: 0;
+  text-align: left;
+  color: white;
+}
+
+.id-card-instructions8 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 40px 0;
+}
+
+.id-card-qr-code8 img {
+  margin-top: -30px;
+  width: 70px;
+  height: 70px;
+}
+
+.id-card-school-info8 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature8 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* id 9 */
+
+
+
+
+.id-card9 {
+  width: 340px;
+  height: 205px;
+  background-image: url('id-9.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header9 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 10px;
+}
+
+/* .header9 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+} */
+.header_text {
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+.header9 .logo9 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header9 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header9 p {
+  font-size: 9px;
+  margin: 0;
+}
+
+/* .header9 h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.header9 h2 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.header9 p {
+  font-size: 12px;
+  margin: 0;
+} */
+
+.profile-section9 {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.profile-image9 {
+  /* flex: 0 0 70px; */
+  height: 110px;
+  width: 90px;
+  border: 2px solid #ddd;
+  border-radius: 45%;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-left: -17px;
+  margin-top: -50px;
+}
+
+.teacher_information {
+  margin-left: 20px;
+}
+
+.profile-image9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.details9 {
+  flex-grow: 1;
+}
+
+.details9 h3 {
+  margin: 0;
+  font-size: 27px;
+  color: #333;
+}
+
+.details9 p {
+  font-size: 12px;
+  color: #666;
+  margin-left: 20px;
+}
+
+.info9 td {
+  margin: 2px 0;
+  font-size: 12px;
+  color: #333;
+}
+
+.info9 {
+  margin-top: -10px;
+}
+
+.signature9 {
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.signature9 hr {
+  border: 0.5px solid #333;
+  margin: 5px auto;
+  width: 80px;
+}
+
+.signature9 p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* back */
+/* back */
+.id-card-container9 {
+  width: 340px;
+  height: 205px;
+  background-image: url('id-9-b.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.id-card-content9 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.id-card-issue-date9,
+.id-card-expire-date9 {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions9 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.id-card-qr-code9 img {
+  margin-top: -10px;
+  width: 50px;
+  height: 50px;
+}
+
+.id-card-school-info9 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature9 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* id 11 */
+
+
+
+
+.id-card11 {
+  width: 340px;
+  height: 205px;
+  background-image: url('id-11.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.header11 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 10px;
+}
+
+/* .header11 {
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  color: black;
+  margin-left: 10px;
+} */
+.header_text11 {
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+.header11 .logo11 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.header11 h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header11 p {
+  font-size: 9px;
+  margin: 0;
+}
+
+/* .header11 h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.header11 h2 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.header11 p {
+  font-size: 12px;
+  margin: 0;
+} */
+.d-flex{
+  gap:20px;
+}
+.profile-section11 {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.profile-image11 {
+
+    height: 123px;
+    width: 92px;
+    border: 2px solid #ddd;
+    overflow: hidden;
+    margin-left: -2px;
+    margin-top: -84px;
+}
+
+/* .teacher_information11 {
+  margin-left: 20px;
+} */
+
+.profile-image11 img {
+  width: 105%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.details11 {
+  flex-grow: 1;
+  margin-left: 25px;
+  color: white !important;
+}
+
+.details11 h3 {
+  margin: 0;
+  font-size: 27px;
+
+}
+
+.details11 p {
+  font-size: 12px;
+
+  margin-left: 20px;
+}
+
+.info11 td {
+  margin: 2px 0;
+  font-size: 12px;
+
+}
+
+.info11 {
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.signature11 {
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.signature11 hr {
+  border: 0.5px solid #333;
+  margin: 5px auto;
+  width: 80px;
+}
+
+.signature11 p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* back */
+/* back */
+.id-card-container11 {
+  width: 340px;
+  height: 205px;
+  background-image: url('id-11-b.png');
+  /* Use your second uploaded image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.id-card-content11 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.id-card-issue-date11,
+.id-card-expire-date11 {
+  font-size: 9px;
+  margin: 0;
+}
+
+.id-card-instructions11 {
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.id-card-qr-code11 img {
+  margin-top: -10px;
+  width: 50px;
+  height: 50px;
+}
+
+.id-card-school-info11 {
+  font-size: 9px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.id-card-principal-signature11 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.id-card-row {
+  display: grid
+;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+  .id-card-row {
+      grid-template-columns: repeat(2, 1fr); /* 4 columns on medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .id-card-row {
+      grid-template-columns: repeat(1, 1fr); /* 3 columns on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .id-card-row {
+      grid-template-columns: repeat(1, 1fr); /* 2 columns on mobile screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .id-card-row {
+      grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}

@@ -1,0 +1,504 @@
+@import url("nikosh.css");
+@page { sheet-size: A4;font-family: 'Nikosh',sans-serif; }
+
+@page {
+	/* ensure you append the header/footer name with 'html_' */
+	header: html_MyCustomHeader; /* sets <htmlpageheader name="MyCustomHeader"> as the header */
+	footer: html_MyCustomFooter; /* sets <htmlpagefooter name="MyCustomFooter"> as the footer */
+}
+.container{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.hidden{
+	display:none !important;
+}
+h1,h3{
+	text-align:center;
+}
+h3{
+	font-size:17px;
+	margin-top:0px;
+}
+h1{
+	padding:0px;
+	margin:0px;
+}
+p{
+	font-size:14px;
+}
+caption{
+	text-align:left;
+	font-size:14px;
+}
+.div-200{
+	height:200px;
+}
+.div-150{
+	height:150px;
+}
+.div-95{
+	width: 95%;
+    margin: 0 auto;
+}
+.div-48{
+	width: 48%;
+	float:left;
+}
+.div-75{
+	width: 75%;
+	overflow:hidden;
+	margin:0 auto;
+}
+.div-98{
+	width: 98%;
+	float:left;
+}
+.padding-vertical-10{
+	padding:10px 0px;
+}
+.padding-top-10{
+	padding-top:10px;
+}
+.padding-bottom-10{
+	padding-bottom:10px;
+}
+p{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+table {
+	width:100%;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+tbody tr td:first-child{
+	text-align:center !important;
+}
+th, td {
+	padding: 4px;
+	text-align: left;
+	font-size:13px;
+}
+table#t01 tr:nth-child(even) {
+	background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+	background-color: #fff;
+	color: #000;
+}
+.pl-10{
+	padding-left:10px;
+}
+.min_all thead tr th{
+font-size:14px;
+padding:2px;
+text-align:center;
+font-weight:bold;
+}
+.min_all tbody tr th{
+font-size:14px;
+padding:2px;
+text-align:center;
+}
+.min_all tbody tr td{
+font-size:14px;
+padding:2px;
+text-align:center;
+}
+.font-18{
+font-size: 18px;
+}
+.font-14{
+	font-size:13px;
+}
+.min_all2 thead tr th{
+font-size:14px;
+padding:3px;
+text-align:center;
+font-weight:bold;
+}
+.min_all2 tbody tr th{
+font-size:14px;
+padding:3px;
+text-align:center;
+}
+.min_all2 tbody tr td{
+font-size:14px;
+padding:3px;
+text-align:center;
+}
+.last-div{
+	float:right !important;
+	width:33%;
+}
+.margin-vertical-null{
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.div-100{
+	width: 99%;
+    margin: 0 auto;
+	overflow:hidden;
+}
+.div-50{
+	width: 49%;
+	float:left;
+}
+.div-33{
+	width:33%;
+	float:left;
+}
+
+.non-bordered{
+	border:none;
+}
+.non-bordered thead tr th{
+	font-size:14px;
+	padding:1px;
+	border:none;
+}
+.non-bordered tbody tr th{
+	font-size:14px;
+	padding:1px;
+	border:none;
+}
+.non-bordered tbody tr td{
+	font-size:14px;
+	padding:3px;
+	border:none;
+}
+.non-bordered tbody tr th:last-child{
+	text-align:left;
+	font-family: Arial Black, Helvetica, sans-serif;
+}
+.table-right-75{
+	width: 100%;
+    float: right !important;
+	border:none;
+}
+.non-bordered-right tbody tr td:first-child{
+	text-align:right !important;
+}
+.text-uppercase{
+	text-transform: uppercase;
+}
+.text-bold{
+	font-weight:bold;
+}
+.subject-table thead tr th{
+	font-size:13px;
+	padding:2px;
+	text-align:center;
+}
+
+
+.subject-table tbody tr th{
+	font-size:13px;
+	padding:2px;
+	text-align:center;
+}
+.subject-table tbody tr td{
+	font-size:13px;
+	padding:3px;
+	text-align:center;
+}
+
+.subject-table tbody tr:nth-child(even) {
+  background-color: #efefef !important;
+}
+.subject-table tfoot tr th{
+	font-size:13px;
+	padding:2px;
+	text-align:center;
+}
+.subject-table tbody tr th:first-child{
+	text-align:left;
+}
+.non-bordered-but-td{
+	border:none;
+	border-collapse: collapse;
+	padding:0px;
+}
+.non-bordered-but-td tr th{
+	border:none;
+	border-right:1px solid #000;
+	border-collapse: collapse;
+	padding:0px;
+	width:80px;
+}
+.non-bordered-but-td tr th:last-child{
+	border-right:none !important;
+	border-collapse: collapse;
+	padding:0px;
+}
+.text-sign{
+	border-top:2px solid #000; 
+}
+
+.tabulation-sheet  thead tr {
+  background-color: #dedede;
+}
+.tabulation-sheet tbody tr:nth-child(even) {
+  background-color: #efefef;
+}
+/*tabulation sheet start*/
+.tabulation-sheet thead tr th:nth-child(1){
+	width:40px;
+}
+.tabulation-sheet thead tr th:nth-child(2){
+	width:200px;
+}
+.tabulation-sheet thead tr .rest-all-th{
+	width:100px;
+}
+.tabulation-sheet tbody tr td:nth-child(1){
+	width:40px;
+}
+.tabulation-sheet tbody tr td:nth-child(2){
+	width:200px;
+}
+.tabulation-sheet tbody tr .rest-all-td{
+	width:100px;
+}
+.clearfix {
+  overflow: auto;
+}
+.div-75{
+	width: 75%;
+	overflow:hidden;
+	
+}
+.div-25{
+	width: 25%;
+	overflow:hidden;
+	
+}
+
+.right-img{
+	float:right;
+}
+.left-img{
+	float:left;
+}
+.padding-10{
+	padding:10px !important;
+}
+.margin-0{
+	margin:0px !important;
+}
+.margin-top-0{
+	margin-top:0px !important;
+}
+.margin-bottom-0{
+	margin-bottom:0px !important;
+}
+.margin-top-5{
+	margin-top:5px !important;
+}
+.margin-bottom-5{
+	margin-bottom:5px !important;
+}
+.padding-left-5{
+	padding-left:5px !important;
+}
+.padding-left-10{
+	padding-left:10px !important;
+}
+.margin-bottom-10{
+	margin-bottom:10px !important;
+}
+
+/*tabulation sheet end*/
+/*class routine start*/
+.div-40{
+	width: 40%;
+	overflow:hidden;
+}
+.div-60{
+	width: 60%;
+	overflow:hidden;
+}
+.div-70{
+	width: 70%;
+	overflow:hidden;
+}
+.div-left{
+	float:left !important;
+}
+.div-right{
+	float:right !important;
+}
+/*class routine end*/
+.padding-10{
+	padding:10px !important;
+}
+.margin-0{
+	margin:0px !important;
+}
+.margin-top-0{
+	margin-top:0px !important;
+}
+.margin-top-5{
+	margin-top:5px !important;
+}
+.margin-top-10{
+	margin-top:10px !important;
+}
+.margin-bottom-5{
+	margin-bottom:5px !important;
+}
+.padding-top-0{
+	padding-top:0px !important;
+}
+.padding-bottom-2{
+	padding-top:2px !important;
+}
+.padding-left-5{
+	padding-left:5px !important;
+}
+
+.margin-top-100{
+	margin-top:100px !important;
+}
+.left-img{
+	float:left;
+}
+.text-bold{
+	font-weight:bold;
+}
+.font-18{
+	font-size: 18px !important;
+}
+.font-14{
+	font-size: 14px !important;
+}
+.font-10{
+	font-size: 10px !important;
+}
+.font-12{
+	font-size: 12px !important;
+}
+.font-11{
+	font-size: 11px !important;
+}
+.text-uppercase{
+	text-transform: uppercase;
+}
+.text-left{
+	text-align: left !important;
+}
+.text-center{
+	text-align: center !important;
+}
+.text-right{
+	text-align: right !important;
+}
+.width-40px{
+	width:40px !important;
+	max-width:40px !important;
+}
+.width-120px{
+	width:120px !important;
+	max-width:120px !important;
+}
+.width-100{
+	width:100%;
+	max-width:100%;
+}
+.div-90{
+	width: 90%;
+    margin: 0 auto;
+}
+.div-80{
+	width: 80%;
+    margin: 0 auto;
+}
+.m-auto{
+	
+    margin: 0 auto;
+}
+.vertical-middle{
+	vertical-align:middle !important;
+}
+.border-top-0{
+	border-top:none !important;
+}
+.border-bottom-0{
+	border-bottom:none !important;
+}
+.font-20{
+	font-size: 20px !important;
+}
+.border-left-0{
+	border-left:none !important;
+}
+.border-right-0{
+	border-right:none !important;
+}
+.vertical-padding-2{
+	padding:2px 0px;
+}
+.border-0{
+	border:none !important;
+}
+.img-border-1{
+	border:1px solid #e0e0e0 !important;
+}
+.border-bottom-1{
+	border-bottom:1px solid #ebebeb;
+}
+.border-right-black-1{
+	border-right:1px solid #000;
+}
+.padding-0{
+	padding:0px !important;
+}
+.margin-0{
+	margin:0px !important;
+}
+.border-spacing-0{
+	border-spacing: 0px;
+}
+.width-120px{
+	width:120px;
+	max-width:120px;
+}
+.width-80px{
+	width:80px;
+	max-width:80px;
+}
+.width-190px{
+	width:190px;
+	max-width:190px;
+}
+.height-120px{
+	height:120px;
+}
+.vertical-initial{
+	vertical-align: initial !important;
+}
+.150px{
+	width:150px;
+	height:150px;
+}
+.id-card-box{
+	width:205px;
+	height:326px;
+	overflow:hidden;
+	
+	border: 1px solid #ededed;
+	
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+	float:left;
+	position: relative;
+}
